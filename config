@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[user]
+	name= NankingMassacre
+	email=houyewei@hotmail.com
+[remote "origin"]
+	url = https://nanjingmassacre@github.com/nankingmassacre/nankingmassacre.github.io.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
