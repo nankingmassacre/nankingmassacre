@@ -5,4 +5,7 @@ node_js:
         - "5.11"
 before_script:
   - npm install -g hexo-cli
-script: hexo g
+script: 
+  - hexo g
+  - git commit -a -m 'hexo-cli'
+  - git push origin master
