@@ -5,5 +5,5 @@ before_script:
   - npm install -g hexo-cli
 script: 
   - hexo g
-  - git commit -a -m 'hexo-cli'
+  - git commit -a -m hexo'
   - git push origin master
